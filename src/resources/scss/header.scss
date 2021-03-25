@@ -1,0 +1,51 @@
+.header{
+    background-color: rgb(230, 230, 233);
+    //border: 0px solid none;
+    height: 50px;
+}
+a[name=signup]{
+    color: black;
+    text-decoration: none;
+    line-height: 50px;
+    margin-left: 50px;
+}
+label[name=account]{
+    margin-left: 50px;
+}
+label[name=pass]{
+    margin-left: 25px;
+}
+input[name=account]{
+    width: 150px;
+    border-radius: 5px;
+}
+input[name=pass]{
+    width: 150px;
+    border-radius: 5px;
+}
+button[name=login]{
+    background-color: rgb(141, 231, 247);
+    border-radius: 5px;
+}
+a[name=forgot]{
+    float: right;
+    margin-right: 50px;
+    line-height: 50px;
+    text-decoration: none;
+}
+lable[name=forgot]{
+    float: right;
+    color: black;
+    line-height: 50px;
+}
+.header_ct{
+    height: 100px;
+    //border: 0px solid none;
+    background-color: white;
+}
+img[name=logo]{
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    margin-left: 50px;
+}

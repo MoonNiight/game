@@ -1,0 +1,10 @@
+{
+    "editor.fontFamily": "‘Fira Code’, Consolas, 'Courier New', monospace",
+    "liveSassCompile.settings.formats": [
+        {
+          "format": "expanded",
+          "extensionName": ".css",
+          "savePath": "/src/public/css",
+        }
+      ],
+}

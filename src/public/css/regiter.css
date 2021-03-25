@@ -1,0 +1,94 @@
+.content {
+  width: 100%;
+  height: 100%;
+  border: 0.1px solid white;
+  background-image: url("../img/bgr.jpg");
+  background-size: cover;
+}
+
+.regiter {
+  width: 400px;
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgba(24, 24, 23, 0.637);
+  margin: 100px auto 100px;
+}
+
+p[name=name] {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+table {
+  margin: 100px auto auto;
+}
+
+td {
+  padding-top: 10px;
+  height: 25px;
+}
+
+label {
+  color: white;
+  line-height: 25px;
+}
+
+input {
+  height: 20px;
+  float: right;
+  margin-left: 30px;
+  border-radius: 3px;
+}
+
+button[name=signup] {
+  margin-left: 225px;
+  margin-top: 30px;
+  width: 65px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+p[name=rule] {
+  font-size: 10px;
+  color: #bebbbb;
+  width: 272px;
+  margin: 15px auto auto;
+}
+
+a[name=rule] {
+  font-size: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+hr {
+  text-align: center;
+  width: 300px;
+  height: 2px;
+  background-color: white;
+  margin-top: 40px;
+}
+
+p[name=or] {
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+}
+
+img[name=fb] {
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+  margin-left: 30px;
+}
+
+img[name=gg] {
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+  margin-left: 10px;
+}
+/*# sourceMappingURL=regiter.css.map */

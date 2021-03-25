@@ -1,0 +1,12 @@
+.footer {
+  background-color: #a1fcff;
+  height: 20px;
+  line-height: 20px;
+}
+
+p[name=copyright] {
+  font-size: 10px;
+  color: blue;
+  margin-left: 100px;
+}
+/*# sourceMappingURL=footer.css.map */

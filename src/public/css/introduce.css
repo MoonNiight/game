@@ -1,0 +1,248 @@
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  height: 70px;
+  background-color: #235390;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header h2[name="game"] {
+  margin: 0px 0px;
+  font-size: 40px;
+  color: white;
+  line-height: 70px;
+  font-weight: bold;
+}
+
+.header li {
+  list-style-type: none;
+}
+
+.header li a[name=languages] {
+  font-size: 14.5px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.header li a[name=languages] img[name=arrow] {
+  width: 10px;
+  height: 10px;
+  margin-left: 3px;
+  font-weight: 600;
+}
+
+.top {
+  width: 100%;
+  background-image: url("../img/universe.jpg");
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 92vh;
+}
+
+.top .top__content {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 50px auto;
+  padding: 40px 40px 0;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.top .top__content .circle1 {
+  width: 350px;
+  height: 350px;
+  border: 1px solid #4d85ff14;
+  background-color: #4d85ff14;
+  border-radius: 50%;
+  float: left;
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.top .top__content .circle1 .circle2 {
+  width: 290px;
+  height: 290px;
+  border: 1px solid #93b4fc12;
+  background-color: #93b4fc12;
+  margin: 20px 20px;
+  border-radius: 50%;
+}
+
+.top .top__content .circle1 .circle2 .circle3 {
+  width: 250px;
+  height: 250px;
+  margin: 20px 20px;
+  border-radius: 50%;
+  background-image: url("../img/earth.svg");
+  background-size: cover;
+}
+
+.top .top__content .topright {
+  margin: 40px 55px;
+}
+
+.top .top__content .topright h1[name=tor] {
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 16px;
+}
+
+.top .top__content .topright table {
+  margin: auto auto;
+}
+
+.top .top__content .topright table a {
+  width: 320px;
+  border-radius: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  text-decoration: none;
+  color: white;
+  padding: 12px 24px;
+  font-size: 14px;
+  max-width: 320px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.top .top__content .topright table a[name=signup] {
+  background-color: #58cc02;
+  border-bottom: 4px solid #58a700;
+  margin-bottom: 12px;
+}
+
+.top .top__content .topright table a[name=signin] {
+  background-color: #235390;
+  border: 2px solid #153256;
+  border-bottom: 4px solid #153256;
+}
+
+.center {
+  width: auto;
+  height: 60px;
+  background-color: #0A4A82;
+}
+
+.center .incen {
+  width: 1000px;
+  margin: 0 auto;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.center .incen img[name=left] {
+  width: 25px;
+  height: 30px;
+}
+
+.center .incen img[name=right] {
+  width: 25px;
+  height: 30px;
+  margin-left: auto;
+}
+
+.center .incen .in {
+  width: 500px;
+  height: 35px;
+}
+
+.center .incen .in img[name=usa] {
+  width: 40px;
+  height: 35px;
+  border: 1px solid white;
+  border-radius: 5px;
+  float: left;
+  margin-left: 25px;
+}
+
+.center .incen .in a[name=usa] {
+  float: left;
+  color: white;
+  margin-left: 10px;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.center .incen .in img[name=china] {
+  width: 40px;
+  height: 35px;
+  border: 1px solid white;
+  border-radius: 5px;
+  float: left;
+  margin-left: 30px;
+}
+
+.center .incen .in a[name=china] {
+  float: left;
+  color: white;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  margin-left: 10px;
+}
+/*# sourceMappingURL=introduce.css.map */

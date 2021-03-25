@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    padding: 30px;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    img[name=key]{
+        width: 25px;
+        height: 25px;
+        float: left;
+    }
+    a[name=signup]{
+        text-decoration: none;
+        width: 100px;
+        height: 50px;
+        border-radius: 15px;
+        text-transform: uppercase;
+        border: 2px solid #E5E5E5;
+        display: block;
+        line-height: 50px;
+        align-items: center;
+        text-align: center;
+        border-bottom: 4px solid #E5E5E5;
+        color: #1CB0F6;
+        font-size: 15px;
+        margin-left: auto;
+        font-weight: bold;
+    }
+    a[name=signup]:hover {
+        background-color: rgba(175, 175, 175, 0.658);
+    }
+}

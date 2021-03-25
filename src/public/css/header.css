@@ -1,0 +1,60 @@
+.header {
+  background-color: #e6e6e9;
+  height: 50px;
+}
+
+a[name=signup] {
+  color: black;
+  text-decoration: none;
+  line-height: 50px;
+  margin-left: 50px;
+}
+
+label[name=account] {
+  margin-left: 50px;
+}
+
+label[name=pass] {
+  margin-left: 25px;
+}
+
+input[name=account] {
+  width: 150px;
+  border-radius: 5px;
+}
+
+input[name=pass] {
+  width: 150px;
+  border-radius: 5px;
+}
+
+button[name=login] {
+  background-color: #8de7f7;
+  border-radius: 5px;
+}
+
+a[name=forgot] {
+  float: right;
+  margin-right: 50px;
+  line-height: 50px;
+  text-decoration: none;
+}
+
+lable[name=forgot] {
+  float: right;
+  color: black;
+  line-height: 50px;
+}
+
+.header_ct {
+  height: 100px;
+  background-color: white;
+}
+
+img[name=logo] {
+  width: 70px;
+  height: 70px;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+/*# sourceMappingURL=header.css.map */
