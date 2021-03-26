@@ -16,13 +16,13 @@ body {
 .content {
   width: 100%;
   height: 100%;
-  border: 1px solid black;
 }
 
-.content img[name=key] {
+.content img[name=cross] {
   width: 25px;
   height: 25px;
   float: left;
+  opacity: 0.7;
 }
 
 .content a[name=signup] {
@@ -33,7 +33,7 @@ body {
   text-transform: uppercase;
   border: 2px solid #E5E5E5;
   display: block;
-  line-height: 50px;
+  line-height: 45px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -47,5 +47,194 @@ body {
 
 .content a[name=signup]:hover {
   background-color: rgba(175, 175, 175, 0.658);
+}
+
+.content .main {
+  width: 375px;
+  height: 450px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -210px 0 0 -200px;
+}
+
+.content .main h1[name=login] {
+  text-align: center;
+  font-size: 26px;
+  padding-bottom: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.content .main .inp .inp1 {
+  width: 100%;
+  height: 45px;
+  background: #f7f7f7;
+  border: 2px solid #e5e5e5;
+  border-radius: 16px;
+  margin: 8px 0 0;
+}
+
+.content .main .inp .inp1 input {
+  padding: 6px 16px;
+  width: 340px;
+  position: absolute;
+  margin: 4.5px 15.5px;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.content .main .inp .inp2 {
+  width: 100%;
+  height: 45px;
+  background: #f7f7f7;
+  border: 2px solid #e5e5e5;
+  border-radius: 16px;
+  margin: 8px 0 0;
+}
+
+.content .main .inp .inp2 input {
+  padding: 6px 16px;
+  width: 300px;
+  position: absolute;
+  margin: 4.5px 15.5px;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.content .main .inp .inp2 a[name=forget] {
+  color: #777;
+  text-decoration: none;
+  right: 15px;
+  line-height: 39px;
+  margin-left: 320px;
+}
+
+.content .main .inp .inp2 a[name=forget]:hover {
+  color: black;
+}
+
+.content .main a[name=signin] {
+  text-decoration: none;
+  width: 100%;
+  height: 50px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  border: transparent;
+  -webkit-box-shadow: 0 4px #1899D6;
+          box-shadow: 0 4px #1899D6;
+  display: block;
+  line-height: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  margin-left: auto;
+  font-weight: bold;
+  margin-top: 20px;
+  background-color: #1CB0F6;
+}
+
+.content .main a[name=signin]:hover {
+  background-color: #57c5f8;
+}
+
+.content .main .hr hr {
+  margin: 30px auto;
+  background-color: #E5E5E5;
+}
+
+.content .main .hr .or {
+  width: 60px;
+  height: 20px;
+  background-color: white;
+  margin-inline: auto;
+  text-align: center;
+  margin-top: -42px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #AFAFAF;
+}
+
+.content .main .inp3 a[name=fb] {
+  width: 180px;
+  height: 100%;
+  text-decoration: none;
+  border-radius: 15px;
+  text-transform: uppercase;
+  border: 1px solid #E5E5E5;
+  -webkit-box-shadow: 0 4px #E5E5E5;
+          box-shadow: 0 4px #E5E5E5;
+  display: block;
+  line-height: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #3B5998;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 20px;
+  background-color: white;
+  float: left;
+}
+
+.content .main .inp3 a[name=fb] img[name=fb] {
+  width: 15px;
+  height: 15px;
+}
+
+.content .main .inp3 a[name=fb]:hover {
+  background-color: #f7f7f7;
+}
+
+.content .main .inp3 a[name=gg] {
+  width: 180px;
+  height: 100%;
+  text-decoration: none;
+  border-radius: 15px;
+  text-transform: uppercase;
+  border: 1px solid #E5E5E5;
+  -webkit-box-shadow: 0 4px #E5E5E5;
+          box-shadow: 0 4px #E5E5E5;
+  display: block;
+  line-height: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #3B5998;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 20px;
+  background-color: white;
+  float: right;
+}
+
+.content .main .inp3 a[name=gg] img[name=gg] {
+  width: 15px;
+  height: 15px;
+}
+
+.content .main .inp3 a[name=gg]:hover {
+  background-color: #f7f7f7;
+}
+
+.content .main .botton {
+  width: 100%;
+  height: 170px;
+}
+
+.content .main .botton p[name=rule] {
+  color: #888888;
+  margin-top: 120px;
+  text-align: center;
+}
+
+.content .main .botton p[name=rule] a[name=rule] {
+  text-decoration: none;
+  color: #616161;
 }
 /*# sourceMappingURL=login.css.map */
