@@ -85,6 +85,7 @@ body {
 .content .main .inp .inp1 input {
   padding: 6px 12px;
   margin: 4.5px 15.5px;
+  outline: none;
 }
 
 .content .main a[name=signin] {

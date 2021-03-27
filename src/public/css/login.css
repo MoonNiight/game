@@ -82,6 +82,7 @@ body {
   margin: 4.5px 15.5px;
   background-color: transparent;
   border-color: transparent;
+  outline: none;
 }
 
 .content .main .inp .inp2 {
@@ -100,6 +101,7 @@ body {
   margin: 4.5px 15.5px;
   background-color: transparent;
   border-color: transparent;
+  outline: none;
 }
 
 .content .main .inp .inp2 a[name=forget] {
